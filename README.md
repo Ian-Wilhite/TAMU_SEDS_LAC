@@ -1,5 +1,5 @@
-
-
+# SEDS
+Texas A&M Students for the Exploration and Development of Space (SEDS), NASA Lunar Autonomy Challenge (LAC) Team
 
 # Challenge Context
 
@@ -28,7 +28,10 @@ Clone this repo into the main LunarAutonomyChallenge directory
 
 ## Mapping
  - CV stereovision -> photogrammatry
- - 
+ - SLAM options
+  - [ORB-slam -> Stereo vision](https://github.com/UZ-SLAMLab/ORB_SLAM3) (I was having some issues installing it)
+  - [lightweight vio/vslam](https://github.com/Gongsta/vSLAM-py)
+  - [pyslam](https://github.com/luigifreda/pyslam)
 
 ## Rock finding 
  - [opencv docs](https://answers.opencv.org/question/92133/detection-of-stones-rocks-on-field-surface/)
@@ -37,7 +40,7 @@ Clone this repo into the main LunarAutonomyChallenge directory
 
 ## 2/28
  - Agent that can map 9mx9m area 
-    - must navigate the area in < 
+    - must navigate the area in reasonable time
  - exports csv of 15cmx15cm cells containing 
     - height of each cell
     - presence of rock (boolean)
